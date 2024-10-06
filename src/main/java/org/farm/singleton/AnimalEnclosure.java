@@ -1,7 +1,6 @@
 package org.farm.singleton;
 
 import org.farm.entity.animal.Animals;
-import org.farm.entity.animal.Cow;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +32,5 @@ public class AnimalEnclosure implements Buildings {
     public List<Animals> getAnimalsInEnclosure() {
         return animalsInEnclosure;
     }
-
 
 }
